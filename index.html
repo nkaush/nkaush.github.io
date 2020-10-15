@@ -8,72 +8,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>CS196 Django Homework</title>
+    <title>Neil Kaushikkar</title>
   </head>
   <body>
     <!-- Main Header -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">CS196 Django Homework</h1>
-          <p class="lead">My name is {{my_name}}.<br>My Net ID is {{my_netid}}, and my UIN is {{my_uin}}.
-          <h6>Try using this information to view my schedule!</h6></p>
+          <h1 class="display-4">Hi! I'm Neil Kaushikkar</h1>
+          <p class="lead">I'm a freshman studying computer science at the University of Illinois at Urbana-Champaign.</p>
+          <h6>This site is a work in progress...</h6></p>
         </div>
       </div>
-      <!-- Containers -->
-      <div class="container">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="row">
-          <div class="col-6 col-md-4">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Schedule Viewer</h5>
-                    <p class="card-text">Enter the following information to view a student's schedule.</p>            
-                    <!-- Input Form -->
-                    <form action="/get-sched/" method="post">
-                        {% csrf_token %}
-                        <div class="form-group">
-                            <label for="exampleInputUIN">UIN/Illini ID:</label>
-                            <input name="uin" type="text" class="form-control" id="exampleInputUIN" aria-describedby="uidhelp" placeholder="Enter UIN" value={{enter_uin}}>
-                            <small id="uidhelp" class="form-text text-muted">Try entering 10000</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputNETID">Net ID:</label>
-                            <input name ="netID" type="text" class="form-control" id="exampleInputNETID" aria-describedby="netidhelp" placeholder="Enter Net ID" value={{enter_netid}}>
-                            <small id="netidhelp" class="form-text text-muted">Try entering random6</small>
-                        </div>
-                        <button type="submit" class="btn btn-primary">View Schedule</button>
-                    </form>
-                </div>
-              </div>
-            
-          </div>
-          <div class="col-12 col-md-8">
-              <!-- Course Table -->
-            <h4 class="display-6">{{ stdn_sched_name }}</h4>
-            <table class="table table-striped">
-                <thead>
-                <tr>
-                    <th scope="col">CRN</th>
-                    <th scope="col">Department</th>
-                    <th scope="col">Number</th>
-                    <th scope="col">Section</th>
-                    <th scope="col">Hours</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for item in query_results %}
-                <tr> 
-                    <td>{{ item.crn }}</td>
-                    <td>{{ item.department }}</td>
-                    <td>{{ item.number }}</td>
-                    <td>{{ item.section }}</td>
-                    <td>{{ item.hours }}</td>
-                </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-            </div>
-        </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
