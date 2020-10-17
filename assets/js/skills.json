@@ -1,0 +1,50 @@
+{
+    "languages" : [
+        {
+            "name": "Python",
+            "level": 85
+        },
+        {
+            "name": "Java",
+            "level": 75
+        },
+        {
+            "name": "C++",
+            "level": 60
+        },
+        {
+            "name": "Bash",
+            "level": 50
+        }
+    ],
+    "libraries": [
+        {
+            "name": "Git",
+            "level": 90
+        },
+        {
+            "name": "Git",
+            "level": 85
+        },
+        {
+            "name": "Git",
+            "level": 70
+        },
+        {
+            "name": "Git",
+            "level": 70
+        },
+        {
+            "name": "Git",
+            "level": 60
+        },
+        {
+            "name": "Git",
+            "level": 50
+        },
+        {
+            "name": "Git",
+            "level": 45
+        }
+    ]
+}
