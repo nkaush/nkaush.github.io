@@ -1,726 +1,463 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Neil Kaushikkar</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="I'm a computer science student at the University of Illinois at Urbana-Champaign (UIUC). My interests include systems programming, computer architecture, and natural language processing. I have experience programming with the Rust programming language, C, C++, Java, and Python and experience working with Azure Cloud, AWS, and Google Cloud.">
+    <meta name="author" content="Neil Kaushikkar">
+    <meta name="keywords" content="Computer Science, UIUC, systems programming, computer architecture, software engineering, web development, natural language processing, Rust, Java, C, C++, Python, Azure, Azure Cloud, Software Engineer, Software Engineering Intern, Twilio, National Aeronautics and Space Administration, NASA, COUNTRY Financial, CS 128 Honors, CS128H, Disruption Lab, Disruption Lab Incubator">
 
-<body id="page-top">
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-        <div class="container"><a class="navbar-brand text-primary" href="#page-top">Neil Kaushikkar</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto text-uppercase">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about-me">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">R&#201;sum&#201;</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger " href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>Neil Kaushikkar | Portfolio</title>
+    <link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white mb-0">
+      <a class="navbar-brand custom-nav-link ml-5 pl-3" href="/">neil kaushikkar</a>
+      <div class="ml-auto order-0">
+        <button class="navbar-toggler nav-bar-button" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 mr-5">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link custom-nav-link active mx-3" href="https://github.com/nkaush" target="_blank" rel="noopener noreferrer">github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-nav-link active mx-3" href="https://www.linkedin.com/in/neil-kaushikkar/" target="_blank" rel="noopener noreferrer">linkedin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-nav-link active mx-3" href="/resume" target="_blank" rel="noopener noreferrer">resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link custom-nav-link active mx-3" href="mailto:neil.kaushikkar@gmail.com" target="_blank" rel="noopener noreferrer">hire me</a>
+          </li>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <header class="masthead" style="background-image:url('assets/img/header-bg.png');">
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in"><span>Hello, World!</span></div>
-                <div class="intro-heading text-uppercase"><span>I'm Neil</span></div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" href="#about-me">Here's a bit about me</a>
+    <br><br><br>
+    <div class="d-flex align-items-center" style="height: 80vh; min-height: 600px; width: 100%; margin: auto;">
+      <div class="container">
+        <h2 class="introduction">Hey, I<span style="font-family: 'Trebuchet MS'">'</span>m Neil <span style="font-family: 'Trebuchet MS'">-</span> A Software Engineer<br>from San Francisco.</h2>
+        <p class="introduction-content mt-3">
+          I<span style="font-family: 'Trebuchet MS'">'</span>m a computer science student at the University of Illinois at Urbana<span style="font-family: 'Trebuchet MS'">-</span>Champaign <span style="font-family: 'Trebuchet MS'">(</span>UIUC<span style="font-family: 'Trebuchet MS'">)</span>.
+          I<span style="font-family: 'Trebuchet MS'">'</span>ve taught a class about the Rust programming language, worked on countless Scala<span style="font-family: 'Trebuchet MS'">/</span>Java<span style="font-family: 'Trebuchet MS'">/</span>Rust<span style="font-family: 'Trebuchet MS'">/</span>Python HTTP<span style="font-family: 'Trebuchet MS'">/</span>REST applications, developed high<span style="font-family: 'Trebuchet MS'">-</span>performance low<span style="font-family: 'Trebuchet MS'">-</span>level projects in C and C<span style="font-family: 'Trebuchet MS'">++</span>, and have lots of experience working with unfamiliar large<span style="font-family: 'Trebuchet MS'">-</span>scale codebases while learning programming languages and technologies on the fly.
+          You can view my resume, LinkedIn, and GitHub above and learn more about some of my work below.
+        </p>
+      </div>
+    </div>
+    <div class="d-flex justify-content-start mb-3">
+      <div class="container">
+        <h2 class="introduction">Featured Work.</h2>
+        <div class="row my-2">
+          <div class="col-lg-6 col-sm-12 my-3">
+            <div class="project-card" id="project-0" data-toggle="modal" data-target="#cs128h">
+              <div class="image-overlay">
+                <div class="image-overlay-text">
+                  <p class="project-company mb-0">University of Illinois</p>
+                  <p class="project-title">CS 128 Honors Instructor</p>
+                </div>
+              </div>
+              <div class="card-image" style="overflow: hidden; max-height: 85%;">
+                <img class="card-image-img" src="/static/images/cs128.png">
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 my-3">
+            <div class="project-card" id="project-0" data-toggle="modal" data-target="#AL22">
+              <div class="image-overlay">
+                <div class="image-overlay-text">
+                  <p class="project-company mb-0">Twilio</p>
+                  <p class="project-title">AL22 Containerization</p>
+                </div>
+              </div>
+              <div class="card-image" style="overflow: hidden; max-height: 85%;">
+                <img class="card-image-img" src="/static/images/AL22.png">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 my-3">
+            <div class="project-card" id="project-0" data-toggle="modal" data-target="#twilio">
+              <div class="image-overlay">
+                <div class="image-overlay-text">
+                  <p class="project-company mb-0">Twilio</p>
+                  <p class="project-title">Internal Billing Tools</p>
+                </div>
+              </div>
+              <div class="card-image" style="overflow: hidden; max-height: 85%;">
+                <img class="card-image-img" src="/static/images/twilio.png">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 my-3">
+            <div class="project-card" id="project-0" data-toggle="modal" data-target="#kqueue">
+              <div class="image-overlay">
+                <div class="image-overlay-text">
+                  <p class="project-company mb-0">Personal Project</p>
+                  <p class="project-title">Flask Inspired C Web Server</p>
+                </div>
+              </div>
+              <div class="card-image" style="overflow: hidden; max-height: 85%;">
+                <img class="card-image-img" src="/static/images/freebsd.png">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 my-3">
+            <div class="project-card" id="project-0" data-toggle="modal" data-target="#luis">
+              <div class="image-overlay">
+                <div class="image-overlay-text">
+                  <p class="project-company mb-0">COUNTRY Financial</p>
+                  <p class="project-title">Automated Customer Verification</p>
+                </div>
+              </div>
+              <div class="card-image" style="overflow: hidden; max-height: 85%;">
+                <img class="card-image-img" src="/static/images/luis.png">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 my-3">
+            <div class="project-card" id="project-0" data-toggle="modal" data-target="#cf-ea-revamp">
+              <div class="image-overlay">
+                <div class="image-overlay-text">
+                  <p class="project-company mb-0">COUNTRY Financial</p>
+                  <p class="project-title">Enterprise Architecture Revamp</p>
+                </div>
+              </div>
+              <div class="card-image" style="overflow: hidden; max-height: 85%;">
+                <img class="card-image-img" src="/static/images/azure.png">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 my-3">
+            <div class="project-card" id="project-0" data-toggle="modal" data-target="#burd">
+              <div class="image-overlay">
+                <div class="image-overlay-text">
+                  <p class="project-company mb-0">NASA</p>
+                  <p class="project-title">Broad Use Reconfigurable Drones</p>
+                </div>
+              </div>
+              <div class="card-image" style="overflow: hidden; max-height: 85%;">
+                <img class="card-image-img" src="/static/images/nasa.png">
+              </div>
+            </div>
+          </div>
         </div>
-    </header>
-    <section id="about-me">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">About Me</h2>
-                    <h3 class="text-muted section-subheading"> </h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <a target="_blank" rel="noopener noreferrer" href="https://cs.illinois.edu/">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-university fa-stack-1x fa-inverse"></i>
-                        </a>
-                        <!--<img src="assets/img/uiuc.png" class="img-thumbnail" style="height:180;width:180">-->
-                    </span>
-                    <h4 class="section-heading">Student</h4>
-                    <p class="text-muted">I am a freshman working towards a Bachelor of Science in Computer Science at the University of Illinois at Urbana Champaign. I hope to add a second Bachelor of Science in Statistics.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/nkaush">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-                        </a>
-                    </span>
-                    <h4 class="section-heading">Developer</h4>
-                    <p class="text-muted">I am a software developer with experience working for the Intelligent Systems Division at NASA Ames Research Center. I've worked on optimizing reconfigurable drones and developed a live Covid-19 & US Air Traffic dashboard during my 2 summers at NASA.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/nkaush">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                        </a>
-                    </span>
-                    <h4 class="section-heading">Data Scientist</h4>
-                    <p class="text-muted">As part of my computer science degree, I will be concentrating in intelligence and big data. I also hope to add a second major in statistics.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="resume" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">R&#201;sum&#201;</h2>
-                    <!--<h3 class="text-muted section-subheading mb-4">Here's what I've done and am currently doing.</h3>-->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12 text-left">
-                    <h3 class="text-muted section-subheading mb-0">Education</h2>
-                    <hr class="mt-2 mb-3"/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col align-self-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <img src="assets/img/education/uiuc.png" class="align-self-start mr-3" style="max-width: 8%; height: auto;">
-                                <div class="media-body">
-                                    <h5 class="card-title">Bachelor of Science: Computer Science</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">University of Illinois at Urbana-Champaign</h6>
-                                    <h6 class="mb-2 text-muted"><i>May 2024 (Expected)</i></h6>
-                                    <p class="card-text">
-                                        GPA: 3.93/4.0<br>Relevant Coursework:
-                                        <ul>
-                                            <li>CS 196: Freshman Honors</li>
-                                            <li>CS 125: Introduction to Computer Science</li>    
-                                            <li>MATH 241: Calculus III</li>
-                                        </ul>
-                                        <span class="badge badge-success">Java</span>
-                                        <span class="badge badge-success">Python</span>
-                                        <span class="badge badge-success">Bash</span>
-                                        <span class="badge badge-success">Rust</span>
-                                        <span class="badge badge-success">C++</span>
-                                        <span class="badge badge-info">Git</span>
-                                        <span class="badge badge-info">Flask</span>
-                                        <span class="badge badge-info">Django</span>
-                                        <!--primary, secondary, success, danger, warning, info, light, dark-->
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col align-self-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <img src="assets/img/education/sfhs.png" class="align-self-start mr-3" style="max-width: 8%; height: auto;">
-                                <div class="media-body">
-                                    <h5 class="card-title">Diploma</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Saint Francis High School</h6>
-                                    <h6 class="mb-2 text-muted"><i>May 2020</i></h6>
-                                    <p class="card-text">
-                                        GPA: 4.23/4.0<br>Relevant Coursework:
-                                        <ul>
-                                            <li>AP Computer Science A</li>
-                                            <li>AP Computer Science Principles</li>
-                                            <li>Introduction to Programming</li>
-                                            <li>AP Statistics</li>
-                                            <li>AP Calculus BC</li>
-                                        </ul>
-                                        <span class="badge badge-success">Java</span>
-                                        <span class="badge badge-success">Python</span>
-                                        <span class="badge badge-info">Excel</span>
-                                        <!--primary, secondary, success, danger, warning, info, light, dark-->
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-12 text-left">
-                    <h3 class="text-muted section-subheading mb-0">Work Experience</h2>
-                    <hr class="mt-2 mb-3"/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col align-self-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <img src="assets/img/experience/nasa.png" class="align-self-start mr-3" style="max-width: 8%; height: auto;">
-                                <div class="media-body">
-                                    <h5 class="card-title">Software Engineering Intern</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">USRA NAMS & NASA Ames Research Center</h6>
-                                    <h6 class="mb-2 text-muted"><i>Summer 2020</i></h6>
-                                    <p class="card-text">
-                                        I worked closely with 6 other interns under the guidance of 3 civil servants in NASA Ames Research Center's Aviation Systems Division (ARC-AF) and NASA's Aeronautics Research Institute (NARI).
-                                        This project was funded by the USRA NAMS. 
-                                        <br><br>Project: Covid-19 & US Air Traffic Dashboard
-                                        <ul>
-                                            <li>Developed an internal web application to track and predict air traffic volume and Covid-19 cases around the US</li>
-                                            <li>Successfully deployed & optimized a data pipeline from NASA’s Sherlock Data Warehouse to a web app dashboard</li>
-                                            <li>Implemented and tuned a random forest algorithm to predict flight traffic 1 month in the future with r<sup>2</sup>=0.814</li>
-                                        </ul>
-
-                                        <span class="badge badge-success">Python</span>
-                                        <span class="badge badge-info">pandas</span>
-                                        <span class="badge badge-info">Jupyter Notebook</span>
-                                        <!--primary, secondary, success, danger, warning, info, light, dark-->
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col align-self-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <img src="assets/img/experience/nasa.png" class="align-self-start mr-3" style="max-width: 8%; height: auto;">
-                                <div class="media-body">
-                                    <h5 class="card-title">Software Engineering Intern</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">KBR, Inc. & NASA Ames Research Center</h6>
-                                    <h6 class="mb-2 text-muted"><i>Summer 2019</i></h6>
-                                    <p class="card-text">
-                                        I worked closely with 15 other interns under the guidance of 7 civil servants in NASA Ames Research Center's Intelligent Systems Division (ARC-TI) and NASA's Aeronautics Research Institute (NARI) as part of NASA's Aeronatics Research Mission Directorate (ARMD).
-                                        My internship was funded by KBR, Inc. 
-                                        
-                                        <br><br>I co-wrote and presented a technical conference paper highlighting the results of this project at AIAA’s 2020 Multidisciplinary Design Optimization Forum.
-                                        
-                                        <br><br>Project: Broad-Use reconfigurable Drones
-                                        <ul>
-                                            <li>Developed a web application providing building instructions to optimize a modular drone based on user-defined missions</li>
-                                            <li>Successfully implemented a ranking algorithm to objectively favor either well-rounded drones or more specialized drones</li>
-                                            <li>Built a dashboard providing with dynamic visualizations highlighting tradeoffs among optimal drone configurations</li>                                        
-                                        </ul>
-                                        <a target="_blank" rel="noopener noreferrer" href="https://arc.aiaa.org/doi/10.2514/6.2020-3154" class="badge badge-danger">Abstract</a>
-                                        <a target="_blank" rel="noopener noreferrer" href="./assets/img/documents/burd-conf-paper.pdf" class="badge badge-danger">Conference Paper</a>
-                                        <br>
-                                        <span class="badge badge-success">Python</span>
-                                        <span class="badge badge-info">pandas</span>
-                                        <span class="badge badge-info">Matplotlib</span>
-                                        <span class="badge badge-info">NumPy</span>
-                                        <span class="badge badge-info">tkinter</span>
-                                        <!--primary, secondary, success, danger, warning, info, light, dark-->
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>      
-    </section>
-    <section id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <h2 class="text-uppercase section-heading">Skills</h2>
-                    <h3 class="text-muted section-subheading mb-4">Here are some of my relevant software development skills.</h3>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col align-self-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media" id="json-tester">
-                                <div class="media-body">
-                                    <h5 class="card-title">Programming Languages</h5>                                  
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>Python</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>Java</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>C++</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>Bash</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col align-self-center">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media">
-                                <div class="media-body">
-                                    <h5 class="card-title">Libraries & Frameworks</h5>                                    
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>Git</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>pandas</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>Django</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>scikit-learn</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row align-items-center">
-                                        <div class="col-sm-3">
-                                            <div>Arduino</div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      </div>
+    </div>
     
-    <section id="portfolio" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Projects</h2>
-                    <h3 class="section-subheading text-muted">Here are a few cool projects I made.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="./assets/img/portfolio/gpt3-thumbnail.png"></a>
-                    <div class="portfolio-caption">
-                        <h4>LCTRS</h4>
-                        <p class="text-muted">BERT Lecture Summarizer</p>
-                        <span class="badge badge-success">Python</span>
-                        <span class="badge badge-info">Jupyter Notebook</span>
-                        <span class="badge badge-info">scikit-learn</span>
-                        <span class="badge badge-info">pandas</span>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="./assets/img/portfolio/gamballing-thumbnail.png"></a>
-                    <div class="portfolio-caption"> <!--Add bg-light in class-->
-                        <h4>GAM(BALL)ING</h4>
-                        <p class="text-muted">NBA Game Odds Calculator</p>
-                        <span class="badge badge-success">Java</span>
-                        <span class="badge badge-success">Python</span>
-                        <span class="badge badge-info">Java Swing</span>
-                        <span class="badge badge-info">scikit-learn</span>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="./assets/img/portfolio/subway-thumbnail.png"></a>
-                    <div class="portfolio-caption">
-                        <h4>SUBWAY MD</h4>
-                        <p class="text-muted">Map Designer</p>
-                        <span class="badge badge-success">Java</span>
-                        <span class="badge badge-success">Python</span>
-                        <span class="badge badge-info">Java Swing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!--<section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase">About</h2>
-                    <h3 class="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+
+
+
+    <div class="modal fade" id="AL22" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 960px; margin: auto;">
+        <div class="modal-content" style="position: absolute; inset: 40px 0px 0px; border: 0px; background: rgb(255, 255, 255); overflow: auto; border-radius: 0px; outline: none; padding: 0px; z-index: 900;">
+          <div class="project-modal-body">
+            <div class="modal-top">
+              <button type="button" class="close mt-1 mr-2" data-dismiss="modal" aria-label="Close" style="float: right; z-index: 999;">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-image">
+                <img class="card-image-img" src="/static/images/AL22.png" loading="lazy">
+              </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-group timeline">
-                        <li class="list-group-item">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part<br>&nbsp;Of Our<br>&nbsp;Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="modal-bottom">
+              <div style="line-height: 1;">
+                <p class="project-company mb-0">Twilio</p>
+                <p class="project-title">AL22 Containerization</p>
+              </div>
+              <p class="modal-text">
+                With part of Amazon Linux 1<span style="font-family: 'Trebuchet MS'">'</span>s deprecation, Twilio is making a company<span style="font-family: 'Trebuchet MS'">-</span>wide push to containerize all of its services in preparation for the eventual migration to Amazon Linux 22.
+                I was tasked with containerizing <span style="font-family: 'Trebuchet MS'">4</span> of the billing engineering team<span style="font-family: 'Trebuchet MS'">'</span>s core internal services written in Scala.
+                Throughout the process of containerizing each service, I also developed Buildkite pipelines to automate the building and testing of each service as part of the company<span style="font-family: 'Trebuchet MS'">'</span>s move away from their Jenkins CI systems. 
+              </p>
+              <p class="modal-text">
+                This project taught me a lot about the Docker ecosystem, working in large codebases in languages I am unfamiliar with <span style="font-family: 'Trebuchet MS'">(</span>Scala<span style="font-family: 'Trebuchet MS'">)</span>, and popular technologies like Apache Spark and Kafka.
+                I came away with an strong understanding of proper Dockerfile development techniques and a basic understanding of writing Scala code. 
+                It was a great exercise in picking up new technologies quickly. 
+              </p>
             </div>
+          </div>
         </div>
-    </section>
-    -->
-    <section id="contact" class="bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4"> </div> 
-                <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/2.png">
-                        <h4>Neil Kaushikkar</h4>
-                        <p class="text-muted">Student</p>
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/neil-kaushikkar/"><i class="fa fa-linkedin-square"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://github.com/nkaush"><i class="fa fa-github"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="mailto:neil.kaushikkar@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/neil.kaushikkar/"><i class="fa fa-instagram"></i></a></li> 
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--
-    <section class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/creative-market.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/designmodo.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/envato.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/themeforest.jpg"></a></div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="contact" style="background-image:url('assets/img/map-image.png');">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form id="contactForm" name="contactForm" novalidate="novalidate">
-                        <div class="form-row">
-                            <div class="col col-md-6">
-                                <div class="form-group"><input class="form-control" type="text" id="name" placeholder="Your Name *" required=""><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
-                                <div class="form-group"><input class="form-control" type="email" id="email" placeholder="Your Email *" required=""><small class="form-text text-danger help-block lead"></small></div>
-                                <div class="form-group"><input class="form-control" type="tel" placeholder="Your Phone *" required=""><small class="form-text text-danger help-block lead"></small></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group"><textarea class="form-control" id="message" placeholder="Your Message *" required=""></textarea><small class="form-text text-danger help-block lead"></small></div>
-                            </div>
-                            <div class="col">
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="col-lg-12 text-center">
-                                <div id="sent"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-    <!--
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4"><span class="copyright">Copyright&nbsp;© Brand 2020</span></div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                        <li class="list-inline-item"><a href="#">Terms of Use</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
--->
-    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal1">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">LCTRS</h2>
-                                    <p class="item-intro text-muted">A lecture summarizer that uses GPT2 and BERT.</p><img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/gpt3-full.png">
-                                    <p>Description incoming!</p>
-                                    <ul class="list-unstyled">
-                                        <li>Date: October 2020</li>
-                                        <li>For: CS 196 Final Project</li>
-                                        <li>Category: NLP</li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal2">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">GAM(BALL)ING</h2>
-                                    <p class="item-intro text-muted">An NBA game odds calculator that uses k-means clustering.</p><img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/gamballing-full.png">
-                                    <p>Description incoming!</p>
-                                    <ul class="list-unstyled">
-                                        <li>Date: April 2019</li>
-                                        <li>For: LancerHacks II Hackathon</li>
-                                        <li>Category: ML, Graphics</li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
+
+    <div class="modal fade" id="burd" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 960px; margin: auto;">
+        <div class="modal-content" style="position: absolute; inset: 40px 0px 0px; border: 0px; background: rgb(255, 255, 255); overflow: auto; border-radius: 0px; outline: none; padding: 0px; z-index: 900;">
+          <div class="project-modal-body">
+            <div class="modal-top">
+              <button type="button" class="close mt-1 mr-2" data-dismiss="modal" aria-label="Close" style="float: right; z-index: 999;">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-image">
+                <img class="card-image-img" src="/static/images/burd/instructions.png" loading="lazy">
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal3">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">SUBWAY MD</h2>
-                                    <p class="item-intro text-muted">A subway map designer.</p><img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/subway-full.png">
-                                    <p>Description incoming!</p>
-                                    <ul class="list-unstyled">
-                                        <li>Date: March 2019</li>
-                                        <li>For: Personal Project</li>
-                                        <li>Category: Graphics</li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-bottom">
+              <div style="line-height: 1;">
+                <p class="project-company mb-0">NASA</p>
+                <p class="project-title">Broad Use Reconfigurable Drones</p>
+              </div>
+              <p class="modal-text">
+                Coming soon...
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal4">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4-full.jpg">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
-                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-unstyled">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
+
+    <div class="modal fade" id="luis" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 960px; margin: auto;">
+        <div class="modal-content" style="position: absolute; inset: 40px 0px 0px; border: 0px; background: rgb(255, 255, 255); overflow: auto; border-radius: 0px; outline: none; padding: 0px; z-index: 900;">
+          <div class="project-modal-body">
+            <div class="modal-top">
+              <button type="button" class="close mt-1 mr-2" data-dismiss="modal" aria-label="Close" style="float: right; z-index: 999;">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-image">
+                <img class="card-image-img" src="/static/images/luis.png" loading="lazy">
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal5">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-full.jpg">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
-                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-unstyled">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-bottom">
+              <div style="line-height: 1;">
+                <p class="project-company mb-0">COUNTRY Financial</p>
+                <p class="project-title">Automated Call Center Customer Verification</p>
+              </div>
+              <p class="modal-text">
+                Coming soon...
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal6">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6-full.jpg">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
-                                        cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-unstyled">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
+
+    <div class="modal fade" id="cf-ea-revamp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 960px; margin: auto;">
+        <div class="modal-content" style="position: absolute; inset: 40px 0px 0px; border: 0px; background: rgb(255, 255, 255); overflow: auto; border-radius: 0px; outline: none; padding: 0px; z-index: 900;">
+          <div class="project-modal-body">
+            <div class="modal-top">
+              <button type="button" class="close mt-1 mr-2" data-dismiss="modal" aria-label="Close" style="float: right; z-index: 999;">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-image">
+                <img class="card-image-img" src="/static/images/azure.png" loading="lazy">
+              </div>
             </div>
+            <div class="modal-bottom">
+              <div style="line-height: 1;">
+                <p class="project-company mb-0">COUNTRY Financial</p>
+                <p class="project-title">Enterprise Architecture Revamp</p>
+              </div>
+              <p class="modal-text">
+                Coming soon...
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/agency.js"></script>
-    <script src="assets/js/skills_filler.js"></script>
-    </body>
+
+
+    <div class="modal fade" id="cs128h" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 960px; margin: auto;">
+        <div class="modal-content" style="position: absolute; inset: 40px 0px 0px; border: 0px; background: rgb(255, 255, 255); overflow: auto; border-radius: 0px; outline: none; padding: 0px; z-index: 900;">
+          <div class="project-modal-body">
+            <div class="modal-exit-btn">
+              <button type="button" class="close mt-1 mr-2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-text-top">
+              <div style="line-height: 1;">
+                <p class="project-company mb-0">University of Illinois</p>
+                <p class="project-title">CS 128 Honors Instructor</p>
+              </div>
+              <p class="modal-text">
+                I currently run the <a class="boxed-link" href="https://honors.cs128.org/" target="_blank" rel="noopener noreferrer">CS 128 Honors</a> course at UIUC where I<span style="font-family: 'Trebuchet MS'">'</span>ve taught the Rust programming language to <span style="font-family: 'Trebuchet MS'">~</span>300 freshman since January 2022. I publish weekly lectures, develop autograded Rust programming homeworks, and manage a course staff of 10 other students.
+                The course runs in parallel to an introductory course that teaches C<span style="font-family: 'Trebuchet MS'">++</span>. It aims to teach memory safety, parallelism <span style="font-family: 'Trebuchet MS'">&#38;</span> concurrency, functional programming, and more through the lens of the Rust programming language while students learn similar concepts in C<span style="font-family: 'Trebuchet MS'">++</span> in the introductory course.
+              </p>
+              <p class="modal-text">
+                Since January, I<span style="font-family: 'Trebuchet MS'">'</span>ve been delivering weekly lectures covering various concepts from Rust syntax to generics <span style="font-family: 'Trebuchet MS'">&#38;</span> templating to thread<span style="font-family: 'Trebuchet MS'">-</span>safety. 
+                I have also developed programming assignments such as a Rust rendition of MapReduce or a Rust implementation of the K<span style="font-family: 'Trebuchet MS'">-</span>Nearest Neighbors algorithm to expose students to well<span style="font-family: 'Trebuchet MS'">-</span>known algorithms in computer science while also giving students extra practice programming in Rust.
+              </p>
+              <p class="modal-text">
+                Here are a few of my lectures from the past year. You can view the full playlist of lectures by semester on YouTube:
+                <ul style="margin-top: -15px;" class="modal-text">
+                  <li><a class="boxed-link" href="https://youtube.com/playlist?list=PLezlz_6l_jm2MU-yfzKWerZV1rai71bw4" target="_blank" rel="noopener noreferrer">Spring 2022</a></li>
+                  <li><a class="boxed-link" href="https://youtube.com/playlist?list=PLezlz_6l_jm1ckUqSnExg1zl_JeT78A1g" target="_blank" rel="noopener noreferrer">Fall 2022</a></li>
+                </ul>
+              </p>
+                <h3 class="project-company mt-4">Smart Pointers and Generics in Rust</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe loading="lazy" class="embed-responsive-item" src="https://www.youtube.com/embed/Mys3lbm7kpM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>              
+                <h3 class="project-company mt-4">Borrowing and Slices in Rust</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe loading="lazy" class="embed-responsive-item" src="https://www.youtube.com/embed/I5hAy-YFU2Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>              
+                <h3 class="project-company mt-4">Ownership and Borrowing</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe loading="lazy" class="embed-responsive-item" src="https://www.youtube.com/embed/1cZ15uAvWro" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>              
+                <h3 class="project-company mt-4">Structs and Method Impl in Rust</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe loading="lazy" class="embed-responsive-item" src="https://www.youtube.com/embed/s2H86sks7-E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>              
+                <h3 class="project-company mt-4">Enums and Pattern Matching</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe loading="lazy" class="embed-responsive-item" src="https://www.youtube.com/embed/ptWRtNaNNfY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="modal fade" id="twilio" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 960px; margin: auto;">
+        <div class="modal-content" style="position: absolute; inset: 40px 0px 0px; border: 0px; background: rgb(255, 255, 255); overflow: auto; border-radius: 0px; outline: none; padding: 0px; z-index: 900;">
+          <div class="project-modal-body">
+            <div class="modal-top">
+              <button type="button" class="close mt-1 mr-2" data-dismiss="modal" aria-label="Close" style="float: right; z-index: 999;">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-image">
+                <img class="card-image-img" src="/static/images/twilio.png" loading="lazy">
+              </div>
+            </div>
+            <div class="modal-bottom">
+              <div style="line-height: 1;">
+                <p class="project-company mb-0">Twilio</p>
+                <p class="project-title">Internal Billing Tools</p>
+              </div>
+              <p class="modal-text">
+                Coming soon...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="kqueue" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 960px; margin: auto;">
+        <div class="modal-content" style="position: absolute; inset: 40px 0px 0px; border: 0px; background: rgb(255, 255, 255); overflow: auto; border-radius: 0px; outline: none; padding: 0px; z-index: 900;">
+          <div class="project-modal-body">
+            <div class="modal-exit-btn">
+              <button type="button" class="close mt-1 mr-2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-text-top">
+              <div style="line-height: 1;">
+                <p class="project-company mb-0">Personal Project</p>
+                <p class="project-title">Flask<span style="font-family: 'Trebuchet MS'">-</span>Inspired C Web Server</p>
+              </div>
+              <p class="modal-text">
+                I built a web server in C that is inspired by the Flask web framework for Python<span style="font-family: 'Trebuchet MS'">-</span>based web servers. 
+                It takes inspiration from Flask<span style="font-family: 'Trebuchet MS'">'</span>s function annotation route definitions. 
+                I built this project to learn more about the <a class="boxed-link" href="https://www.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2" target="_blank" rel="noopener noreferrer">kqueue</a> interface and non<span style="font-family: 'Trebuchet MS'">-</span>blocking IO in the C programming language and to better understand how web servers work.
+                You can view the source code of the project <a class="boxed-link" href="https://github.com/nkaush/c-web-server" target="_blank" rel="noopener noreferrer">on GitHub</a>. 
+              </p>
+              <p class="modal-text">
+                The kqueue interface is a kernel event notification mechanism supported on FreeBSD systems. 
+                However, the primary reason I picked the interface is because it is also supported on MacOSX systems. There are alternatives like the <a class="boxed-link" href="https://man7.org/linux/man-pages/man7/epoll.7.html" target="_blank" rel="noopener noreferrer">epoll</a> system call interface, but epoll is only supported on Linux. 
+                I wanted to write a web server that could run natively on my Macbook. There is an interface called <a class="boxed-link" href="https://libevent.org/" target="_blank" rel="noopener noreferrer">libevent</a> that abstracts away the differences between the kqueue, epoll, and other non<span style="font-family: 'Trebuchet MS'">-</span>blocking IO interfaces, but I wanted to learn more about the kqueue interface and interact with all of the system calls directly. 
+              </p>
+              <p class="modal-text">
+                Since C is shipped without any native data structures, I also had to implement a few data structures from scratch. I implemented the hashset, hashmap, vector, and bitvector data structures in C to become more intimately familiar with the data structures and to continue the theme of avoiding external libraries. 
+                I also built a custom n<span style="font-family: 'Trebuchet MS'">-</span>ary tree data structure to store the routes for the web server so that the server can efficienty look up variable routes with route parameters. 
+                For those unfamiliar, route parameters are routes that have query parameters built into the URL. Take GitHub, for example. You can look up any GitHub repository with the route <code>/&lt;username&gt;/&lt;repo<span style="font-family: 'Trebuchet MS'">-</span>name&gt;/</code>. 
+                To look up the source code for my web server, you would go to <a class="boxed-link" href="https://github.com/nkaush/c-web-server" target="_blank" rel="noopener noreferrer">https<span style="font-family: 'Trebuchet MS'">://</span>github.com<span style="font-family: 'Trebuchet MS'">/</span>nkaush<span style="font-family: 'Trebuchet MS'">/</span>c<span style="font-family: 'Trebuchet MS'">-</span>web<span style="font-family: 'Trebuchet MS'">-</span>server<span style="font-family: 'Trebuchet MS'">/</span></a> since my GitHub username is <code>nkaush</code> and the repository is called <code>c-web-server</code>. 
+                Both the username and repository name are route parameters since they can vary for different users and different repositories. 
+              </p>
+              <p class="modal-text">
+                The interface for the server is very simple. There are only 3 functions that you need to call to get a web server up and running. There are a lot of constants, but that is expected with the HTTP protocol.
+                <ul style="margin-top: -15px;" class="modal-text">
+                  <li><code>void server_init(char* port)</code> initializes the web server on the specified port.</li>
+                  <li><code>void server_register_route(http_method http_method, char* route, route_handler_t handler)</code> defines a route for the web server. The callback function <code>handler</code> is called when the method and route passed into the function definition are requested.</li>
+                  <li><code>void server_launch(void)</code> starts the web server.</li>
+                </ul>
+              </p>
+              <p class="modal-text">
+                Here is what the a basic Flask application could look like:
+              </p>
+              <div class="embed-responsive embed-responsive-21by9">
+                <iframe
+                  loading="lazy"
+                  class="embed-responsive-item"
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=panda-syntax&wt=none&l=python&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=from%2520flask%2520import%2520Flask%250A%250Aapp%2520%253D%2520Flask%28__name__%29%250A%250A%2540app.route%28%27%252F%27%29%250Adef%2520hello%28%29%253A%250A%2520%2520%2520%2520return%2520%27Hello%252C%2520World%21%27"
+                  sandbox="allow-scripts allow-same-origin">
+                </iframe>
+              </div>
+              <p class="modal-text">
+                This is the equivalent with my web server interface:
+              </p>
+              <div class="embed-responsive embed-responsive-21by9">
+                <iframe
+                  loading="lazy"
+                  class="embed-responsive-item"
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=panda-syntax&wt=none&l=text%2Fx-csrc&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2523include%2520%2522server.h%2522%250A%2523include%2520%253Cerr.h%253E%250A%250Aresponse_t*%2520hello%28request_t*%2520request%29%2520%257B%250A%2520%2520%2520%2520return%2520response_from_string%28STATUS_OK%252C%2520%2522Hello%252C%2520World%21%2522%29%253B%250A%257D%250A%250Aint%2520main%28int%2520argc%252C%2520char**%2520argv%29%2520%257B%250A%2509if%2520%28argc%2520%21%253D%25202%29%250A%2520%2520%2520%2520%2520%2520%2520%2520errx%28EXIT_FAILURE%252C%2520%2522.%252Fserver%2520%253Cport%253E%2522%29%253B%250A%250A%2520%2520%2520%2520server_init%28argv%255B1%255D%29%253B%250A%2520%2520%2520%2520server_register_route%28HTTP_GET%252C%2520%2522%252F%2522%252C%2520hello%29%253B%2520%2520%2520%2520%250A%2520%2520%2520%2520server_launch%28%29%253B%250A%257D"
+                  sandbox="allow-scripts allow-same-origin">
+                </iframe>
+              </div>
+              <p class="modal-text">
+                Requested routes that do not match any of the registered routes be answered with default appropriate HTTP responses. 
+                If a route is defined but the method requested does not match the defined methods, the server will respond with a <code>405 Method Not Allowed</code> response. 
+                If a requested route simply does not exist, the server will respond with a <code>404 Not Found</code> response. 
+                The default responses are JSON strings with the status code and a simple message included, but they can be changed by defining a custom route handler callback function for each type of error. 
+              </p>
+              <p class="modal-text">
+                The server has capitalizes on some advanced browser features for file caching. 
+                If the server is configured to serve a static file, it will include headers so that the browser can cache the file. 
+                The server will respond with the contents of the file only if the file has been modified after the browser has recieved a copy of the file. 
+              </p>
+              <p class="modal-text">
+                The web server is in no means production<span style="font-family: 'Trebuchet MS'">-</span>ready. It is a only a proof of concept at the moment. The server struggles with handling upwards of 1000 concurrent connections.
+                The server only runs on a single thread, so accepting a connection from a client and handling a portion of the IO that can be acted upon is all done on a single thread in a single cycle of a loop. 
+                As the number of clients that must be served increases, the time taken to handle each client and accept a single connection increases. 
+                I am currently working on a fix that accepts clients and adds them to a queue of clients to be served on a different thread. 
+                However, there are some nuances that arise from the blocking<span style="font-family: 'Trebuchet MS'">-</span>nature of kqueue and the absence of a wakeup mechanism.
+                My multi<span style="font-family: 'Trebuchet MS'">-</span>threaded solution is currently in progress, but it is messy and relies on a hacky busy waiting solution.
+                However, the server works very well when handling fewer than 500 concurrent connections. It can serve files and static content very efficienty. 
+              </p>
+              <p class="modal-text">
+                Here is a basic example of how to use the web server:
+              </p>
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe
+                  loading="lazy"
+                  class="embed-responsive-item"
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=panda-syntax&wt=none&l=text%2Fx-csrc&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2523include%2520%2522server.h%2522%250A%2523include%2520%253Cerr.h%253E%250A%250Aresponse_t*%2520favicon%28request_t*%2520request%29%2520%257B%250A%2520%2520%2520%2520response_t*%2520r%2520%253D%2520response_from_file%28STATUS_OK%252C%2520fopen%28%2522.%252Ffavicon.png%2522%252C%2520%2522r%2522%29%29%253B%250A%2520%2520%2520%2520response_set_content_type%28r%252C%2520CONTENT_TYPE_PNG%29%253B%250A%250A%2520%2520%2520%2520return%2520r%253B%250A%257D%250A%250Aresponse_t*%2520test_handler%28request_t*%2520request%29%2520%257B%250A%2520%2520%2509%252F%252F%2520Request%2520handling%2520here...%250A%2520%2520%250A%2520%2520%2509%252F%252F%2520---------%2520SNIP%2520---------%250A%2520%2520%2509%250A%2520%2520%2520%2520response_t*%2520r%2520%253D%2520response_from_string%28STATUS_OK%252C%2520%2522%257B%255C%2522response%255C%2522%253A%255C%2522uploaded%255C%2522%257D%2522%29%253B%250A%2520%2520%2520%2520response_set_content_type%28r%252C%2520CONTENT_TYPE_JSON%29%253B%250A%250A%2520%2520%2520%2520return%2520r%253B%250A%257D%250A%250Aint%2520main%28int%2520argc%252C%2520char**%2520argv%29%2520%257B%250A%2509if%2520%28argc%2520%21%253D%25202%29%250A%2520%2520%2520%2520%2520%2520%2520%2520errx%28EXIT_FAILURE%252C%2520%2522.%252Fserver%2520%253Cport%253E%2522%29%253B%250A%250A%2520%2520%2520%2520server_init%28argv%255B1%255D%29%253B%250A%250A%2520%2520%2520%2520server_register_route%28HTTP_POST%252C%2520%2522%252Fv1%252Fapi%252Ftest%2522%252C%2520api_handler%29%253B%250A%2520%2520%2520%2520server_register_route%28HTTP_GET%252C%2520%2522%252Ffavicon.ico%2522%252C%2520favicon%29%253B%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520server_launch%28%29%253B%250A%257D"
+                  sandbox="allow-scripts allow-same-origin">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
