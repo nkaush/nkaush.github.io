@@ -25,9 +25,19 @@
             "/static/gifs/3.gif",
             "/static/gifs/4.gif",
             "/static/gifs/5.gif",
-            "/static/gifs/6.gif"
+            "/static/gifs/6.gif",
+            "/static/gifs/7.gif",
+            "/static/gifs/8.gif",
+            "/static/gifs/9.gif",
+            "/static/gifs/10.mp4",
+            "/static/gifs/11.gif",
+            "/static/gifs/12.gif",
+            "/static/gifs/13.gif",
+            "/static/gifs/14.gif",
+            "/static/gifs/15.gif",
+            "/static/gifs/16.gif"
         ];
-        const randomElement = URLs[Math.floor(Math.random() * URLs.length)];
+        const randomElement = URLs[Math.randomInt(URLs.length - 1)];
         window.location.replace(randomElement);
     </script>
   </body>
